@@ -40,6 +40,10 @@ nav a {
     font-size: 1.2rem;
 }
 
+.graficos-container{
+    margin: 5rem;
+}
+
 nav a:hover{
     text-decoration: underline;
     transform: scale(0.90);
