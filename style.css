@@ -52,6 +52,12 @@ nav a {
 
 }
 
+span{
+    font-weight: bold;
+    color: var(--secondary-color);
+
+}
+
 nav a:hover{
     text-decoration: underline;
     transform: scale(0.90);
