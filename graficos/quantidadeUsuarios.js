@@ -1,3 +1,6 @@
+import { getCSS } from "./common"
+
+
 async function quantidadeUsuariosPorRede() {
     const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json'
     const res = await fetch(url)
@@ -11,7 +14,7 @@ async function quantidadeUsuariosPorRede() {
             y: quantidadeDeUsuarios, 
             type: 'bar',
             marker: {
-                color: getComputedStyle(document.body).getPropertyValue('--primary-color')
+                color: getCSS('--primary-color')
             } 
         }
     ]
